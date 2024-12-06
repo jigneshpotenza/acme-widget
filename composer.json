@@ -1,0 +1,23 @@
+{
+    "name": "acme/acme-widget-co",
+    "description": "Acme Widget Co are the leading provider of made up widgets and they've contracted you to create a proof of concept for their new sales system",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Acme\\AcmeWidgetCo\\": "src/"
+        },
+        "files": [
+            "src/Basket.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Freelancingonupwork",
+            "email": "freelancingonupwork@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.4",
+        "phpstan/phpstan": "^2.0"
+    }
+}
